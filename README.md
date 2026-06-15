@@ -9,86 +9,85 @@ The main goal was not only to build a predictive model but also to evaluate the 
 
 What I Did
 
-Cleaned and prepared the housing dataset for analysis.
+• Cleaned and prepared the housing dataset for analysis.
 
-Split the dataset into training and testing sets.
+• Split the dataset into training and testing sets.
 
-Built and trained multiple regression models.
+• Built and trained multiple regression models.
 
-Evaluated model performance using standard metrics.
+• Evaluated model performance using standard metrics.
 
-Compared the results of different algorithms.
+• Compared the results of different algorithms.
 
-Visualized actual and predicted house prices.
+• Visualized actual and predicted house prices.
 
 Models Used
 
 Linear Regression
 
-Linear Regression serves as a baseline model by establishing a linear relationship between housing features and house prices.
+• A baseline model that establishes a linear relationship between housing features and house prices.
 
 Ridge Regression
 
-Ridge Regression is an extension of Linear Regression that uses regularization to reduce overfitting and improve model generalization.
+• An enhanced version of Linear Regression that uses regularization to reduce overfitting.
 
 Decision Tree Regression
 
-Decision Tree Regression captures complex and non-linear relationships within the data, making it useful for more flexible predictions.
+• A tree-based model capable of capturing complex and non-linear relationships within the data.
 
 Tools and Libraries
 
-Python
+• Python
 
-Pandas
+• Pandas
 
-NumPy
+• NumPy
 
-Matplotlib
+• Matplotlib
 
-Scikit-learn
+• Scikit-learn
 
-Jupyter Notebook
+• Jupyter Notebook
 
 Evaluation Metrics
 
-The models were evaluated using the following metrics:
+The models were evaluated using:
 
-R² Score, which measures how well the model explains the variation in house prices.
+• R² Score – Measures how well the model explains the variation in house prices.
 
-Root Mean Squared Error (RMSE), which measures the average prediction error.
+• RMSE (Root Mean Squared Error) – Measures the average prediction error.
 
 These metrics were used to compare the performance of the different regression models.
 
 Key Learnings
 
-Through this project, I gained practical experience in data preprocessing, feature selection, regression modeling, model evaluation, performance comparison, and data visualization.
+• Data preprocessing and cleaning.
+
+• Feature selection techniques.
+
+• Regression model implementation.
+
+• Model evaluation and comparison.
+
+• Data visualization and interpretation.
+
+• Building an end-to-end machine learning workflow.
 
 Project Structure
 
-House-Price-Prediction
+• AI_ML_Task2_Model_Comparison.ipynb
 
-AI_ML_Task2_Model_Comparison.ipynb
+• Housing.csv
 
-Housing.csv
-
-README.md
+• README.md
 
 Future Improvements
 
-Perform hyperparameter tuning to improve model performance.
+• Perform hyperparameter tuning to improve model performance.
 
-Apply feature engineering techniques.
+• Apply feature engineering techniques.
 
-Implement cross-validation for more reliable evaluation.
+• Implement cross-validation for more reliable evaluation.
 
-Explore advanced models such as Random Forest and XGBoost.
+• Explore advanced models such as Random Forest and XGBoost.
 
-Author
-
-Varshith Reddy
-
-Aspiring AI and Machine Learning Engineer with a passion for building data-driven solutions and continuously expanding practical machine learning skills.
-
-Repository Description
-
-A machine learning project that compares Linear Regression, Ridge Regression, and Decision Tree Regression models for house price prediction and evaluates their performance using RMSE and R² Score.
